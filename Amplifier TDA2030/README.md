@@ -3,14 +3,11 @@
 This is a simple class AB audio amplifier built around the TDA2030 audio amplifier integrated circuit. It’s a classic beginner-friendly design often used for small speakers, desktop audio, or homemade powered speakers, where only one power supply voltage is available.
 
 ![tiv](TDA2030.png)
+
 EDA: **Kicad 6.0.11**
 PCB dimensions: **61 x 34 mm** single sided
 
-Circuit is versatile: it can also accomodate TDA2050 and LM1875 due to same pinout, but in all cases heat sink for IC is mandatory!
-
-## What this circuit does
-
-The circuit takes a small audio signal from input and amplifies it enough to drive a small speaker connected to output.
+Circuit is versatile: it can also accomodate TDA2030A, TDA2050 and LM1875 due to same pinout, but in all cases heat sink for IC is mandatory!
 
 # Expected performance
 
@@ -20,8 +17,10 @@ The circuit takes a small audio signal from input and amplifies it enough to dri
 | 18V | 4Ω | 14–18W |
 
 ## Power supply
-- 12 V–18 V regulated supply
+- 12 V–18 V regulated DC supply
 - 2 A or more
+
+## When built
 
 Before connecting the loudspeaker and input source, measure (bias) voltage at test point TP1. The voltage here should be a half of supply voltage. If it's not check both resistors R₁ and R₂ or replace C₁. Capacitor may have too low resistance and some current is flowing through, resulting in bias voltage drop. The same voltage should be at test point TP2 just before output DC decoupling capacitor.
 

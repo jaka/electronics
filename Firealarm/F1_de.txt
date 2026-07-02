@@ -1,5 +1,3 @@
- Hin und wieder hört man in den Städten, wie die Feuersirenen getestet werden. Diese Sirenen sollen im Katastrophenfall die Einwohner warnen. Dabei wird ein an- und abschwelender Ton durch drehende Schaufelräder erzeugt. So etwas kann man auch mit ein wenig Elektronik nachahmen.
-
- 
+Hin und wieder hört man in den Städten, wie die Feuersirenen getestet werden. Diese Sirenen sollen im Katastrophenfall die Einwohner warnen. Dabei wird ein an- und abschwelender Ton durch drehende Schaufelräder erzeugt. So etwas kann man auch mit ein wenig Elektronik nachahmen.
 
 Die Schaltung hier, simuliert so einen Feueralarm. Wird der Taster S1 betätigt, gibt der Lautsprecher Ls1 ein Ton ab, der in der Höhe langsam steigt und nach einen Augenblick bei einer Tonhöhe bleibt. Dieser Ton wird so lange abgegeben, bis der Taster wieder los gelassen wird. Nun wird der Ton wieder niedriger bis er komplett verstummt. Das Spiel kann man unendlich oft wiederholen.
