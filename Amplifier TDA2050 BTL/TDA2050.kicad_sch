@@ -4,6 +4,10 @@
 
   (paper "A4")
 
+  (title_block
+    (title "TDA2050 BTL Amplifier")
+  )
+
   (lib_symbols
     (symbol "Amplifier_Audio:TDA2050" (pin_names (offset 0.127)) (in_bom yes) (on_board yes)
       (property "Reference" "U" (id 0) (at 3.81 6.35 0)
