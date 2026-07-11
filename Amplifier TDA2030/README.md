@@ -5,7 +5,7 @@ This is a simple class AB audio amplifier built around the TDA2030 audio amplifi
 ![tiv](TDA2030.png)
 
 * EDA: **Kicad 6.0.11**
-* PCB dimensions: **61 x 34 mm** single sided
+* PCB dimensions: **61 x 34 mm** (single sided)
 
 Circuit is versatile: it can also accomodate TDA2030A, TDA2050 and LM1875 due to same pinout, but in all cases heat sink for IC is mandatory!
 
