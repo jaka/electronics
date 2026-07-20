@@ -888,7 +888,6 @@
     )
   )
 
-
   (junction (at 229.87 67.31) (diameter 0) (color 0 0 0 0)
     (uuid 0c00548a-f319-441a-ad2e-f060b849f443)
   )
@@ -1648,7 +1647,7 @@
   )
 
   (symbol (lib_id "Device:R") (at 134.62 106.68 90) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (fields_autoplaced)
     (uuid 3c708e0f-7a4a-464d-91bf-f98a5554f515)
     (property "Reference" "R4" (id 0) (at 134.62 100.33 90))
     (property "Value" "2k7" (id 1) (at 134.62 102.87 90))
